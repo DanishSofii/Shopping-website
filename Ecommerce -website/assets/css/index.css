@@ -1,0 +1,514 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.classic-btn {
+    padding:0.7rem 2rem;
+    cursor: pointer;
+    border:none;
+    border-radius: 2px;
+    transition:0.2s ease-in-out;
+}
+.classic-btn:hover {
+    background-color: #000;
+    color:#fff;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0rem 1rem;
+    background: none;
+    box-shadow: 0px 0px 4px 1px;;
+}
+
+.nav-option-container {
+    display: flex;
+    
+}
+
+.nav-option-container  li{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.nav-option-container li a{
+    font-size: 1.3rem;
+    color:rgb(255, 111, 0);
+    transition: 0.19s ease-in-out;
+}
+
+.nav-option-container li a:hover {
+    color: blue;
+}
+
+.header {
+    position: sticky;
+    top:0;
+}
+.navbar h1 {
+    color:rgb(255, 111, 0);
+}
+
+.rainingoffers {
+    background: url("../images/bg6.jpg") no-repeat center center/cover;
+    height:90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:15rem;
+
+}
+
+.rainingoffers div h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.rainingoffers div h2 {
+    margin:1rem 0;
+    color: #fff;
+}
+
+.sponsors {
+    height:40px;
+    width:80px;
+}
+
+#sponsor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:30vh;
+    background:linear-gradient(to right,rgb(148, 148, 255),rgb(78, 255, 78));
+    /* padding: */
+}
+#sponsor-container ul{
+    display: flex;
+    padding:5rem;
+    justify-content: space-between;
+    width: 100%;
+    /* justify-content: space-between; */
+    
+}
+
+#offer-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding:10rem 13rem;
+    width:100%;
+    height: 100vh;
+    background-color: rgb(220, 205, 205);
+
+
+}
+
+
+.offer-module {
+    /* border :2px solid red; */
+    height:25rem;
+    width: 25rem;
+    margin:0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    flex-wrap: wrap;
+    padding:10rem 2rem 1rem 2rem;
+    color:#fff;
+    cursor: pointer;
+    transition:0.15s;
+    
+}
+.offer-module:hover{
+    box-shadow: 0 0 5px 1px black;
+    transform :scale(1.04);
+}
+#offer-module1 {
+    background:url(../images/sneakers1.jpg) no-repeat center center/cover;
+    
+}
+
+#offer-module2 {
+    background:url(../images/jordan2.jpg) no-repeat center center/cover;
+}
+#offer-module3 {
+    background:url(../images/formal1.jpg) no-repeat center center/cover;
+}
+
+.offer-module h2{
+    margin-bottom:3rem;
+    background-color: rgba(85, 84, 84, 0.388);
+    /* opacity: 0.7; */
+    
+    border-radius: 2px;
+    color: #fff;
+}
+
+#featured-container {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:6rem 13rem;
+}
+
+.featured-products-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:2rem;
+}
+.featured-product-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    margin:0.5rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    transition: all 0.25s;
+    padding:0.5rem;
+}
+.featured-product-container:hover{
+    box-shadow: 0 0 15px 1px;
+}
+.heading-text {
+    margin-bottom: 2rem;
+    border-bottom:3px solid orange;
+}
+
+#special-edition {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center ;
+    padding:5rem 5rem 5rem 10rem;
+    background: url("../images/hero-banner.png") no-repeat center center/cover;
+}
+
+.special-items {
+    display: flex;
+    flex-direction: column;
+
+}
+.special-text {
+    margin-bottom: 2rem;
+}
+#special-edition button{
+    background-color: #000;
+    color:white;    
+}
+
+
+#contact-container {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    height:90vh;
+    background: url("/assets/images/contactus.jpg") no-repeat center center/cover   ;
+}
+
+.page-header *{
+    font-size: 2rem;
+    margin-left:1.2rem;
+    margin-bottom: 20px;
+}
+.page-header{
+    display: flex;
+}
+.page-header h2{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container {
+    height: 95vh;
+    width:70%;
+    padding:4rem;
+}
+fieldset {
+    margin:1.2rem;
+    display: flex;
+    flex-direction: column;
+    border:none;
+}
+
+fieldset *{
+    margin-bottom:7px;
+}
+
+input {
+    height:2rem;
+    border:none;
+    border-bottom:3px solid blue;
+    background: none;
+}
+textarea {
+    height:4rem;
+    border:none;
+    border-bottom: 3px solid blue;
+    overflow: auto;
+    resize: vertical;
+    background: none;
+    /* color:white; */
+    
+}
+
+#sendBtn {
+    align-items: center;
+    background-color: blue;
+    height:2.3rem;
+    width:7rem;
+    border:none;
+    border-radius: 4px;
+    color:#fff;
+    cursor: pointer;
+    transition:0.25s;
+}
+#sendBtn:hover {
+    background-color: #ffa72b;
+}
+input:focus {
+    outline:none;
+    font-size: large;
+}
+textarea:focus {
+    outline:none;
+    font-size: large;
+}
+
+#cart-quantity {
+    font-size: smaller;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2.5rem;
+    background-color: #f2ac57;
+    color:#fff;
+}
+@media screen and (max-width:920px) {
+    .rainingoffers {
+        height:60vh;
+        width: 100%;
+        padding:8rem;
+    }
+    .rainingoffers div h1 {
+        font-size: 2.5rem;
+        /* color: #fff; */
+    }
+    
+    .rainingoffers div h2 {
+        margin:0.7rem 0;
+        
+        /* color: #fff; */
+    }
+
+}
+@media screen and (max-width:800px) {
+    .rainingoffers {
+        height:60vh;
+        width: 100%;
+        padding:7rem;
+    }
+    .rainingoffers div h1 {
+        font-size: 2rem;
+        /* color: #fff; */
+    }
+    
+    .rainingoffers div h2 {
+        margin:0.5rem 0;
+        
+        /* color: #fff; */
+    }
+    .navbar {
+        width: 100%;
+        padding:0 0;
+    }
+    .nav-option-container  li{
+        
+        padding: 0.5rem;
+    
+    }
+    .nav-option-container li a{
+        font-size: 0.7rem;
+        
+    }
+    .logo-container{
+        font-size: 0.5rem;
+    }
+    /* .rainingoffers div h2 {
+        margin:0.6rem 0;
+      
+    } */
+    #offer-container {
+        display: flex;
+        /* flex-wrap: wrap; */
+        padding:7rem 7rem;
+        width:100%;
+        height: 70vh;
+
+    }
+    #featured-container {
+       
+        padding:2rem;
+    }
+    .featured-products-container{
+       
+        padding:2rem;
+    }
+    .featured-product-container {
+        margin:0.5rem;
+        margin-bottom: 3rem;
+        
+       
+    }
+    #special-edition {
+        padding:3rem 3rem 3rem 6rem;
+    }
+    .special-text {
+        margin-bottom: 1rem;
+    }
+    #special-edition button{
+        background-color: #000;
+        color:white;    
+        width: 50%;
+    }
+    .special-text {
+        margin-bottom: 1rem;
+        font-size: medium;
+    }    
+}
+
+
+
+@media screen and (max-width:700px) {
+    
+    #offer-container {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        padding:7rem 9rem;
+        width:100%;
+        height: 60vh;
+
+    }
+    .offer-module {
+        /* border :2px solid red; */
+        height:20rem;
+        width: 20rem;
+        margin:1rem 1rem;
+        padding:5rem 2rem 1rem 2rem;
+        
+        
+        
+    }
+    .featured-products-container{
+        flex-wrap: wrap;
+        overflow: auto;
+        height: 60vh;
+        padding:5rem 5rem;
+       
+    }
+    
+
+}
+
+@media screen and (max-width:650px){
+    .classic-btn {
+        padding:0.5rem 1.8rem;
+        
+    }
+    .rainingoffers {
+        height:40vh;
+        width: 100%;
+        padding:5rem;
+    }
+    .rainingoffers div h1 {
+        font-size: 1rem;
+        /* color: #fff; */
+    }
+    
+    .rainingoffers div h2 {
+        margin:0.2rem 0;
+        font-size: 0.7rem;
+        
+        /* color: #fff; */
+    }
+    .rainingoffers div button {
+        padding:0.4rem 2rem;
+    }
+    .sponsors {
+        height:20px;
+        width:40px;
+    }
+    
+    #sponsor-container {
+       
+        height:20vh;
+        
+    }
+    #sponsor-container ul{
+        padding:3rem;
+        /* justify-content: space-between; */
+        
+    }
+   
+    .container {
+        height:90vh;
+        width:70%;
+        padding:2.5rem;
+    }
+    .page-header *{
+        font-size: 1.5rem;
+        margin-left:1.2rem;
+        margin-bottom: 20px;
+    }
+    #offer-container {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        padding:5rem 5rem;
+        width:100%;
+        height: 60vh;
+
+    }
+    #special-edition {
+        padding:2rem 2rem 2rem 2rem;
+    }
+    .special-text {
+        margin-bottom: 1rem;
+    }
+    #special-edition button{
+        background-color: #000;
+        color:white;    
+        width: 50%;
+        height: 30px;
+        
+    }
+    .special-text {
+        margin-bottom: 1rem;
+        font-size: medium;
+    }  
+    .special-text {
+        margin-bottom: 1rem;
+        font-size: small;
+    } 
+
+}

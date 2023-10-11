@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNx</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo-container">
+                <h1>SNx</h1>
+            </div>
+            <div class="nav-option-container">
+                <li><a href="#rain-offer"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="/signin.html" target="_blank"><i class="fa-solid fa-right-to-bracket"></i></a></li>
+                <li><a href="/cart.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i><span id="cart-quantity"> 0</span></a></li>
+                <li><a href="#contact-container"><i class="fa-solid fa-address-book"></i></a></li>
+            </div>
+        </div>
+    </div>
+
+    <div class="rainingoffers" id="rain-offer">
+        <div class="text-rainingoffers">
+            <h1>Raining Offers For</h1>
+            <h1>Hot Summer!</h1>
+            <h2>25% Off on All Products</h2>
+        </div>
+
+        <div class="btn-rainingoffers">
+            <button class="classic-btn">SHOP NOW </button>
+        </div>
+    </div>
+
+    <div id="sponsor-container">
+        <ul>
+            <li><img class="sponsors" src="./assets/images/sponsor-1.png" alt=""></li>
+            <li><img class="sponsors" src="./assets/images/sponsor-2.png" alt=""></li>
+            <li><img class="sponsors" src="./assets/images/sponsor-3.png" alt=""></li>
+            <li><img class="sponsors" src="./assets/images/sponsor-4.png" alt=""></li>
+            <li><img class="sponsors" src="./assets/images/sponsor-5.png" alt=""></li>
+
+        </ul>
+    </div>
+
+    <div id="offer-container">
+        <div class="offer-module" id="offer-module1">
+            <h2>20% Off on Sneakers</h2>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, perferendis.</p> -->
+            <button class="classic-btn">SHOP NOW</button>
+        </div>
+        <div class="offer-module" id="offer-module2">
+            <h2>30% Off On Formals</h2>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, perferendis.</p> -->
+            <button class="classic-btn">SHOP NOW</button>
+        </div>
+        <div class="offer-module" id="offer-module3">
+            <h2>Latest Jordans For You</h2>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, perferendis.</p> -->
+            <button class="classic-btn">SHOP NOW</button>
+        </div>
+    </div>
+
+    <div id="featured-container">
+        <div class="heading-container">
+            <h1 class="heading-text">Featured Products</h1>
+        </div>
+
+        <div class="featured-products-container">
+            <div class="featured-product-container" id="product1">
+                <img src="./assets/images/product-1.jpg" alt="">
+                <h3 class="title-text">Nike Blue Shoes</h3>
+                <div class="featured-shoe-gender">Men</div>
+                <div class="featured-shoe-price">20000</div>
+                <button class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+            <div class="featured-product-container" id="product2">
+                <img src="./assets/images/product-2.jpg" alt="">
+                <h3 class="title-text">Nike Grey Shoes</h3>
+                <div class="featured-shoe-gender">Men</div>
+                <div class="featured-shoe-price">30000</div>
+                <button  type="submit" class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+            <div class="featured-product-container" id="product3">
+                <img src="./assets/images/product-3.jpg" alt="">
+                <h3 class="title-text">Nike Red Shoes</h3>
+                <div class="featured-shoe-gender">Men</div>
+                <div class="featured-shoe-price">25000</div>
+                <button class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+            <div class="featured-product-container" id="product4">
+                <img src="./assets/images/product-4.jpg" alt="">
+                <h3 class="title-text">Nike White Shoes</h3>
+                <div class="featured-shoe-gender">Women</div>
+                <div class="featured-shoe-price">2000</div>
+                <button class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+            <div class="featured-product-container" id="product5">
+                <img src="./assets/images/product-5.jpg" alt="">
+                <h3 class="title-text">Nike yellow Shoes</h3>
+                <div class="featured-shoe-gender">Women</div>
+                <div class="featured-shoe-price">5000</div>
+                <button class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+            <div class="featured-product-container" id="product6">
+                <img src="./assets/images/product-6.jpg" alt="">
+                <h3 class="title-text">Nike White-Red Shoes</h3>
+                <div class="featured-shoe-gender">Men</div>
+                <div class="featured-shoe-price">15999</div>
+                <button class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+            <div class="featured-product-container" id="product7">
+                <img src="./assets/images/product-7.jpg" alt="">
+                <h3 class="title-text">Nike Purple Shoes</h3>
+                <div class="featured-shoe-gender">Women</div>
+                <div class="featured-shoe-price">8999</div>
+                <button class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+            <div class="featured-product-container" id="product8">
+                <img src="./assets/images/product-8.jpg" alt="">
+                <h3 class="title-text">Nike Sky-Blue Shoes</h3>
+                <div class="featured-shoe-gender">Men</div>
+                <div class="featured-shoe-price">6999</div>
+                <button class="classic-btn addcart"><i class="fa-solid fa-cart-plus"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="special-edition">
+        <div class="special-items">
+            <h3 class="special-text">Limited Time Offer</h3>
+            <h1 class="special-text">Special Edition</h1>
+            <h2 class="special-text">Buy this Nike At 50% Discount, Use Code SPOFF50</h2>
+            <button class="classic-btn">SHOP NOW</button>
+        </div>
+
+    </div>
+    <div id="contact-container">
+        <!-- <a name="contact"></a> -->
+        <div class="container">
+            <header class="page-header">
+                <i class="fas fa-address-book fa-bounce"></i>
+                <h2>Contact</h2>
+            </header>
+            <div class="form-container">
+                <form id="contactForm" autocomplete="off">
+                    <fieldset>
+                        <label for="name"><i class="fas fa-address-card"></i> Name</label>
+                        <input required minlength="3" maxlength="50" type="text" id="name"
+                            placeholder="Enter Your Name">
+                    </fieldset>
+                    <fieldset>
+                        <label for="name"><i class="fas fa-envelope"></i> Email</label>
+                        <input required minlength="8" maxlength="100" type="email" id="email"
+                            placeholder="Enter Your Email Address">
+                    </fieldset>
+                    <fieldset>
+                        <label for="name"><i class="fas fa-comment-dots"></i> Message</label>
+                        <textarea required minlength="4" maxlength="256" rows="3" id="message"
+                            placeholder="Enter Your Message"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button id="sendBtn" class="send-btn"><i class="fas fa-paper-plane"></i> Send</button>
+                        <div class="status mt-3" id="status"></div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-contents">
+            <p id="footer-content">&#169 DNx 2023</p>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
